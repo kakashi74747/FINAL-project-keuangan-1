@@ -1,0 +1,138 @@
+/*
+=========================================
+    DARK MODE STYLES FOR UANGMU APP
+=========================================
+*/
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+}
+
+/* NAVBAR */
+.dark-mode .sb-topnav {
+    background-color: #212529 !important;
+}
+
+/* CARD */
+.dark-mode .card {
+    background-color: #2c2c2e;
+    border: 1px solid #444;
+}
+
+.dark-mode .card-header {
+    background-color: #3a3a3c;
+    border-bottom: 1px solid #444;
+}
+
+.dark-mode .card-footer {
+    background-color: #3a3a3c;
+    border-top: 1px solid #444;
+}
+
+.dark-mode .breadcrumb {
+    background-color: #2c2c2e;
+}
+
+/* TABLE & DATATABLES */
+.dark-mode .table {
+    --bs-table-color: #dcdcdc;
+    --bs-table-striped-bg: #3a3a3c;
+    --bs-table-hover-bg: #4a4a4c;
+    --bs-table-border-color: #444;
+}
+
+.dark-mode .datatable-wrapper .datatable-container {
+    background-color: #2c2c2e;
+    border-color: #444;
+}
+
+.dark-mode .datatable-table > thead > tr > th {
+    background-color: #3a3a3c;
+}
+
+.dark-mode .datatable-input,
+.dark-mode .datatable-selector {
+    background-color: #3a3a3c;
+    color: #dcdcdc;
+    border: 1px solid #555;
+}
+
+.dark-mode .datatable-pagination a {
+    color: #dcdcdc;
+    background-color: transparent;
+}
+
+.dark-mode .datatable-pagination a:hover {
+    background-color: #4a4a4c;
+}
+
+.dark-mode .datatable-pagination .active a,
+.dark-mode .datatable-pagination .active a:focus,
+.dark-mode .datatable-pagination .active a:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.dark-mode .datatable-pagination .datatable-info {
+     color: #dcdcdc;
+}
+
+
+/* FORM ELEMENTS */
+.dark-mode .form-control,
+.dark-mode .form-select {
+    background-color: #3a3a3c;
+    color: #dcdcdc;
+    border: 1px solid #555;
+}
+
+.dark-mode .form-control:focus,
+.dark-mode .form-select:focus {
+    background-color: #3a3a3c;
+    color: #dcdcdc;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.dark-mode .form-control::placeholder {
+    color: #888;
+}
+
+
+/* MODAL */
+.dark-mode .modal-content {
+    background-color: #2c2c2e;
+    border: 1px solid #444;
+}
+
+.dark-mode .modal-header {
+    border-bottom: 1px solid #444;
+}
+
+.dark-mode .modal-footer {
+    border-top: 1px solid #444;
+}
+
+.dark-mode .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* MISC */
+.dark-mode .text-muted {
+    color: #aaa !important;
+}
+
+.dark-mode .bg-light {
+    background-color: #3a3a3c !important;
+}
+
+.dark-mode .alert-secondary {
+    background-color: #3a3a3c;
+    border-color: #444;
+    color: #dcdcdc;
+}
+
+.dark-mode .progress {
+    background-color: #444;
+}
